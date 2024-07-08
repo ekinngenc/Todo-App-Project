@@ -10,6 +10,16 @@ Postman Api
 
 http://localhost:8080/auth/register
 
-Docker Image
+Docker Hub
 
-ekinngenc/todo-app-project
+https://hub.docker.com/r/ekinngenc/todo-app-project
+
+Database Information
+
+spring.couchbase.bootstrap-hosts=localhost
+spring.couchbase.connection-string=couchbase
+spring.couchbase.bucket.name=todo-bucket
+spring.couchbase.username=admin
+spring.couchbase.password=password
+
+
