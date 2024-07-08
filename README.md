@@ -4,7 +4,7 @@ This is a project where users can register and log in to the system with the JWT
 
 Technology Stack: • Java 11 • Spring Boot • Spring Data Couchbase • Couchbase • Postman • Maven • Docker • JUnit and Mockito
 
-Features • User Registration and Authentication • Create, Read, Update, Delete (CRUD) operations for TO-DO items • JWT-based authentication • API documentation using Postman
+Features • User Registration and Authentication • Create, Read, Update, Delete (CRUD) operations for TO-DO items • JWT-based authentication • JUnit tests
 
 Postman Api
 
