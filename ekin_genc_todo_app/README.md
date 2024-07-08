@@ -1,4 +1,5 @@
 Todo App Project
+
 This is a project where users can register and log in to the system with the JWT token.  It is a simple todo list project where users can create, update and delete their own notes.
 
 Technology Stack:
