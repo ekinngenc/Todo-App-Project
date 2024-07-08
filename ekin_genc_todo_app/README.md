@@ -1,5 +1,4 @@
-Software Engineer Assessment
-
+Todo App Project
 This is a project where users can register and log in to the system with the JWT token.  It is a simple todo list project where users can create, update and delete their own notes.
 
 Technology Stack:
@@ -17,10 +16,6 @@ Features
 • Create, Read, Update, Delete (CRUD) operations for TO-DO items
 • JWT-based authentication
 • API documentation using Postman
-
-Github Address
-
-https://github.com/ekinngenc/Todo-App-Project
 
 Postman Api
 
