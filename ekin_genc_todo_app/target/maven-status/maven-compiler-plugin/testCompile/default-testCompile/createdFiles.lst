@@ -1,0 +1,5 @@
+org\example\TodoApplicationTest.class
+org\example\AuthControllerTest.class
+org\example\UserServiceTest.class
+org\example\UserNoteControllerTest.class
+org\example\UserNoteServiceTest.class

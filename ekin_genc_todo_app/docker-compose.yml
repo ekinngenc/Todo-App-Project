@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  couchbase:
+    image: couchbase:community
+    container_name: couchbase
+    ports:
+      - "8091-8094:8091-8094"
+      - "11210:11210"
+    environment:
+      COUCHBASE_ADMINISTRATOR_USERNAME: admin
+      COUCHBASE_ADMINISTRATOR_PASSWORD: password
+    volumes:
+      - couchbase_data:/opt/couchbase/var
+
+  app:
+    image: ekinngenc/todo-app-project
+    container_name: todo-app
+    ports:
+      - "8080:8080"
+    environment:
+      COUCHBASE_HOST: couchbase
+      COUCHBASE_BUCKET: todo-bucket
+      COUCHBASE_USERNAME: admin
+      COUCHBASE_PASSWORD: password
+    depends_on:
+      - couchbase
+
+volumes:
+  couchbase_data:
